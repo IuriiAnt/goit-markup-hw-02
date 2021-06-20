@@ -9,7 +9,6 @@ a {
 /*=====HEAD=====*/
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -25,7 +24,6 @@ a {
 
 .menu-link {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -38,7 +36,6 @@ a {
 }
 .tel-link {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,7 +48,6 @@ a {
 }
 .mail-link {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,12 +63,11 @@ a {
 
 .modal-button {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
-  align-items: center;
+  align-items: center
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -82,7 +77,6 @@ a {
 
 .hero {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -92,13 +86,13 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #242121;
+  color: #FFFFFF;
+  background-color: #2f303a;
 }
 /*==========END HERO========*/
 /*===========ABOUT==========*/
 .about-paragraph {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -109,7 +103,6 @@ a {
 }
 .description {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -123,7 +116,6 @@ a {
 /*===========WHAT WE DO==========*/
 .what-we-do {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -136,7 +128,6 @@ a {
 /*=========== OUR TEAM==========*/
 .our-team {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -147,7 +138,6 @@ a {
 }
 .names-team {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -160,7 +150,6 @@ a {
 }
 .position-team {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -173,7 +162,6 @@ a {
 /*===========FOOTER==========*/
 .address {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -194,7 +182,6 @@ footer {
 /*=========PORTFOLIO PAGE=====*/
 .nav-button {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
