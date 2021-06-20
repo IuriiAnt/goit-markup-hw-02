@@ -7,7 +7,7 @@ li {
     text-decoration: none; /* Убираем подчёркивание */
    }
 
-
+/*=====HEAD=====*/
 .logo {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -63,7 +63,7 @@ color: ##757575;
 .mail-link:focus {
 color: #2196f3
 }
-
+/*=====END HEAD=====*/
 /*=====HERO=====*/
 
 .modal-button {
