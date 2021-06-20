@@ -160,6 +160,9 @@ a {
 }
 /*=========== END WHAT WE DO==========*/
 /*=========== OUR TEAM==========*/
+.our-team-back-col {
+  background: #f5f4fa;
+}
 .our-team {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -205,15 +208,17 @@ a {
 
   color: #ffffff;
 }
-
-footer {
-  background-color: #2f303a;
+.footer {
+  background: #2f303a;
 }
 .logo-white {
   color: #ffffff;
 }
 
 /*=========PORTFOLIO PAGE=====*/
+.portfolio-hidden {
+  color: #ffffff;
+}
 .nav-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
