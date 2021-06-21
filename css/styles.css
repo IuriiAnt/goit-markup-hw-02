@@ -12,6 +12,9 @@ a {
   --back-text-color: #212121;
   --grey-text-color: #757575;
   --black-background-color: #2f303a;
+  --font-family: 'Roboto', sans-serif;
+  --paragraph-font-size: 16px;
+  --paragraph-menu-font-size: 14px;
 }
 
 /*=====HEADER=====*/
@@ -22,7 +25,7 @@ a {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
   cursor: pointer;
 }
 
@@ -31,9 +34,9 @@ a {
 }
 
 .menu-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--paragraph-menu-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--back-text-color);
@@ -42,10 +45,11 @@ a {
 .menu-link:focus {
   color: var(--accent-color);
 }
+
 .tel-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--paragraph-menu-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey-text-color);
@@ -55,9 +59,9 @@ a {
   color: var(--accent-color);
 }
 .mail-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--paragraph-menu-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey-text-color);
@@ -70,7 +74,7 @@ a {
 /*=====HERO=====*/
 
 .hero {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -83,7 +87,7 @@ a {
   color: var(--back-color);
 }
 .modal-button {
-  font-size: 16px;
+  font-size: var(--paragraph-font-size);
   line-height: 1.87;
   align-items: center;
   text-align: center;
@@ -95,7 +99,7 @@ a {
   border-radius: 4px;
 }
 .modal-button-go {
-  font-size: 16px;
+  font-size: var(--paragraph-font-size);
   line-height: 1.9;
   align-items: center;
   text-align: center;
@@ -108,8 +112,8 @@ a {
 /*==========END HERO========*/
 /*===========ABOUT==========*/
 .about-paragraph {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--paragraph-menu-font-size);
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -117,8 +121,8 @@ a {
   color: var(--back-text-color);
 }
 .description {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--paragraph-menu-font-size);
   line-height: 1.71;
   /* or 171% */
 
@@ -129,7 +133,7 @@ a {
 /*===========END ABOUT==========*/
 /*===========WHAT WE DO==========*/
 .what-we-do {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -143,7 +147,7 @@ a {
   background: #f5f4fa;
 }
 .our-team {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -152,9 +156,9 @@ a {
   color: var(--back-text-color);
 }
 .names-team {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--paragraph-font-size);
   line-height: 1.18;
   /* identical to box height */
 
@@ -164,8 +168,8 @@ a {
   color: var(--back-text-color);
 }
 .position-team {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-family: var(--font-family);
+  font-size: var(--paragraph-font-size);
   line-height: 1.18;
   /* identical to box height */
   text-align: center;
@@ -175,9 +179,9 @@ a {
 /*===========END OUR TEAM==========*/
 /*===========FOOTER==========*/
 .address {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   font-style: normal;
-  font-size: 14px;
+  font-size: var(--paragraph-menu-font-size);
   line-height: 1.71;
   /* or 171% */
 
@@ -199,7 +203,7 @@ a {
 .nav-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--paragraph-font-size);
   line-height: 1.63;
   /* identical to box height, or 162% */
 
@@ -210,11 +214,11 @@ a {
   cursor: pointer;
 }
 .nav-button:hover {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--back-color);
 }
 .nav-button:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--back-color);
 }
 .project-name {
@@ -230,7 +234,7 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: var(--paragraph-font-size);
   line-height: 2;
   /* identical to box height, or 187% */
 
