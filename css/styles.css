@@ -6,7 +6,15 @@ a {
   text-decoration: none; /* Убираем подчёркивание */
 }
 
-/*=====HEAD=====*/
+:root {
+  --accent-color: #2196f3;
+  --back-color: #ffffff;
+  --back-text-color: #212121;
+  --grey-text-color: #757575;
+  --black-background-color: #2f303a;
+}
+
+/*=====HEADER=====*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -28,11 +36,11 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--back-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .tel-link {
   font-family: 'Roboto', sans-serif;
@@ -40,11 +48,11 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--grey-text-color);
 }
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .mail-link {
   font-family: 'Roboto', sans-serif;
@@ -52,24 +60,17 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--grey-text-color);
 }
 .mail-link:hover,
 .mail-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-/*=====END HEAD=====*/
+/*=====END HEADER=====*/
 /*=====HERO=====*/
 
 .hero {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -79,84 +80,62 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--back-color);
 }
 .modal-button {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #2196f3;
+  color: var(--back-color);
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
 }
 .modal-button-go {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--back-color);
 }
 .hero-background {
-  background-color: #2f303a;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-  background: #2f303a;
+  background-color: var(--black-background-color);
 }
 /*==========END HERO========*/
 /*===========ABOUT==========*/
 .about-paragraph {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--back-text-color);
 }
 .description {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--grey-text-color);
 }
 /*===========END ABOUT==========*/
 /*===========WHAT WE DO==========*/
 .what-we-do {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--back-text-color);
 }
 /*=========== END WHAT WE DO==========*/
 /*=========== OUR TEAM==========*/
@@ -165,13 +144,12 @@ a {
 }
 .our-team {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--back-text-color);
 }
 .names-team {
   font-family: 'Roboto', sans-serif;
@@ -183,41 +161,40 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--back-text-color);
 }
 .position-team {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-text-color);
 }
 /*===========END OUR TEAM==========*/
 /*===========FOOTER==========*/
 .address {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--back-color);
 }
 .footer {
-  background: #2f303a;
+  background: var(--black-background-color);
 }
 .logo-white {
-  color: #ffffff;
+  color: var(--back-color);
 }
 
 /*=========PORTFOLIO PAGE=====*/
 .portfolio-hidden {
-  color: #ffffff;
+  color: var(--back-color);
 }
 .nav-button {
   font-family: 'Roboto', sans-serif;
@@ -229,16 +206,16 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--back-text-color);
   cursor: pointer;
 }
 .nav-button:hover {
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--back-color);
 }
 .nav-button:focus {
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--back-color);
 }
 .project-name {
   font-family: 'Roboto', sans-serif;
@@ -247,7 +224,7 @@ a {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--back-text-color);
 }
 .project-type {
   font-family: Roboto;
@@ -259,5 +236,5 @@ a {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--grey-text-color);
 }
